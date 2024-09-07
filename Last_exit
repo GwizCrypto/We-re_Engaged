@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We're Engaged!!</title>
+    <style>
+        body {
+            background-color: skyblue; /* Sky blue background */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+            text-align: center; /* Center text */
+        }
+        img {
+            max-width: 100%; /* Responsive image */
+            height: auto; /* Maintain aspect ratio */
+            border: 2px solid white; /* Optional border */
+            border-radius: 8px; /* Optional rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>We're Engaged!!</h1>
+        <img src="path_to_your_image.jpg" alt="Engagement Picture">
+    </div>
+</body>
+</html>
